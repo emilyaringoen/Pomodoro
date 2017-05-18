@@ -1,0 +1,24 @@
+<div class="row pomo">
+  <h1 class="pomo-time">POMODORO TIMER</h1>
+</div>
+<article class="row timeRow">
+  <div class="timer col-md-4 col-md-offset-4 text-center">
+    <h1 class="session">{{$ctrl.timeTitle}}</h1>
+    <h1 class="title">{{$ctrl.timeLeft}}</h1>
+    <button ng-click="$ctrl.toggleTimer()" class="btn startStop">{{$ctrl.state}} <span class="glyphicon glyphicon-step-forward"></span></button>
+  </div>
+</article>
+<section class="row lengthPick">
+  <div class="breakCtrl col-md-2 col-md-offset-4">
+    <p>break length</p>
+    <button ng-click="$ctrl.changeBreak(-1)" class="btn upDown">-</button>
+    <span class="length">{{$ctrl.breakLength}}</span>
+    <button ng-click="$ctrl.changeBreak(1)" class="btn upDown">+</button>
+  </div>
+  <div class="sessionCtrl col-md-2">
+    <p>session length</p>
+    <button ng-click="$ctrl.changeSession(-1)" class="btn upDown">-</button>
+    <span class="length">{{$ctrl.sessionLength}}</span>
+    <button ng-click="$ctrl.changeSession(1)" class="btn upDown">+</button>
+  </div>
+</section>

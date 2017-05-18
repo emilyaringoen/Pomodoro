@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.pomo {
+  padding-top: 5em;
+}
+
+.pomo-time {
+  font-size: 3.5em;
+}
+
+.lengthPick {
+  padding-top: 1em;
+}
+
+.upDown {
+  font-weight: 800;
+  background-color: #757777;
+  color: #e9e8ed;
+  margin: 1em 2em 1em 1em;
+}
+
+
+.background {
+  background-image: url('image/workspace1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.sectionOver {
+  background-color: rgba(235, 235, 235, .7);
+  height: 100vh;
+}
+
+.length {
+  font-size: 1.75em;
+}
+
+.timer {
+  margin-top: 2em;
+  border-radius: 3em;
+  height: 50vh;
+  background-color: rgba(235, 235, 235, .8);
+}
+
+.title {
+  margin-top: .5em;
+  font-size: 5em;
+  color: #85273d;
+}
+
+.session {
+  font-size: 2em;
+  margin-top: 2.5em;
+  font-weight: lighter;
+}
+
+.startStop,
+.startStop:hover,
+.startStop:active,
+.startStop:visited {
+  background-color: #757777;
+  color: #e9e8ed;
+  font-size: 1.25em;
+}
